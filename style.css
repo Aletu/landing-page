@@ -190,3 +190,16 @@ button {
   border: solid 2px #e5e7eb;
   padding: 6px 25px;
 }
+
+/* footer */
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  padding: 40px;
+  justify-content: center;
+}
+
+.copyright {
+  color: #e5e7eb;
+}
