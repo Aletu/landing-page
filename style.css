@@ -43,3 +43,20 @@ a {
   display: flex;
   gap: 20px;
 }
+
+.header-bottom {
+  display: flex;
+  padding: 20px 200px;
+}
+
+.hero-container {}
+
+.hero-image {
+  display: flex;
+  padding: 20px;
+}
+
+.hero-image img {
+  height: auto;
+  width: 500px;
+}
