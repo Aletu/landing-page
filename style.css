@@ -26,11 +26,13 @@ a {
 
 /* Header */
 
+/* Top */
+
 .header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 200px;
+  padding: 20px 200px 0px;
   background-color: #1f2937;
 }
 
@@ -44,9 +46,11 @@ a {
   gap: 20px;
 }
 
+/* Bottom */
+
 .header-bottom {
   display: flex;
-  padding: 20px 200px;
+  padding: 120px 200px;
   background-color: #1f2937;
   gap: 50px;
 }
