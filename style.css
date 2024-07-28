@@ -92,5 +92,16 @@ a {
 /* Information */
 
 .information-header {
-  padding: 120px 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 200px;
+}
+
+.information-header .title {
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
 }
