@@ -7,3 +7,27 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+/* Header */
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header-top .links {
+  display: flex;
+  gap: 20px;
+}
