@@ -89,6 +89,7 @@ a {
 .hero-image img {
   height: auto;
   max-width: 500px;
+  border-radius: 8px;
 }
 
 /* Information */
