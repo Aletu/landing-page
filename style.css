@@ -53,6 +53,7 @@ a {
   padding: 120px 200px;
   background-color: #1f2937;
   gap: 50px;
+  flex-wrap: wrap;
 }
 
 .hero-container {
