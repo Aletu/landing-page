@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0px;
+}
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -16,7 +20,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: black
+  color: #e5e7eb;
 }
 
 /* Header */
@@ -24,7 +28,14 @@ a {
 .header-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px;
+  background-color: #1f2937;
+}
+
+.logo {
+  font-size: 24px;
+  color: #e5e7eb;
 }
 
 .header-top .links {
