@@ -56,7 +56,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .hero-container .title {
@@ -75,8 +75,9 @@ a {
   color: #e5e7eb;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 5px;
-  padding: 5px 25px;
+  border-radius: 8px;
+  padding: 8px 25px;
+  border: none;
 }
 
 .hero-image {
