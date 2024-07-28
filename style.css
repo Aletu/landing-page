@@ -88,3 +88,9 @@ a {
   height: auto;
   max-width: 500px;
 }
+
+/* Information */
+
+.information-header {
+  padding: 120px 200px;
+}
