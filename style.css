@@ -76,7 +76,7 @@ a {
   color: #e5e7eb
 }
 
-.hero-container button {
+button {
   background-color: #3882f6;
   color: #e5e7eb;
   font-weight: bold;
@@ -154,4 +154,39 @@ a {
 
 .quote-header .author {
   align-self: flex-end;
+}
+
+/* Call to action */
+
+.cta-header {
+  display: flex;
+  padding: 50px 200px;
+}
+
+.cta-container {
+  display: flex;
+  padding: 40px 100px;
+  background-color: #3882f6;
+  flex: 1 1 auto;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.text .title,
+.text .subtitle {
+  color: #e5e7eb
+}
+
+.text .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.text .subtitle {
+  font-size: 18px;
+}
+
+.cta-container button {
+  border: solid 2px #e5e7eb;
+  padding: 6px 25px;
 }
