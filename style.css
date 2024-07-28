@@ -84,11 +84,7 @@ a {
   border: none;
 }
 
-.hero-image {
-  display: flex;
-}
-
 .hero-image img {
   height: auto;
-  width: 500px;
+  max-width: 500px;
 }
