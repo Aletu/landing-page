@@ -153,5 +153,5 @@ a {
 }
 
 .quote-header .author {
-  border: solid 1px black
+  align-self: flex-end;
 }
