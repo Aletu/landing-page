@@ -108,7 +108,7 @@ a {
 
 .content-container {
   display: flex;
-  border: solid 1px black;
+  gap: 30px;
 }
 
 .content-container .content {
@@ -121,7 +121,8 @@ a {
 .content .image {
   min-height: 150px;
   min-width: 150px;
-  border: solid 5px #3882f6;
+  border: solid 4px #3882f6;
+  border-radius: 8px;
 }
 
 .content .subtext {
