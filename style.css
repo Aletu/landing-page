@@ -32,7 +32,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 200px 0px;
+  padding: 20px 150px 0px;
   background-color: #1f2937;
 }
 
@@ -50,10 +50,11 @@ a {
 
 .header-bottom {
   display: flex;
-  padding: 120px 200px;
+  padding: 80px 150px;
+  gap: 20px;
   background-color: #1f2937;
-  gap: 50px;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-container {
@@ -62,7 +63,7 @@ a {
   align-items: flex-start;
   gap: 20px;
   justify-content: center;
-  width: 400px;
+  width: 500px;
 }
 
 .hero-container .title {
@@ -97,7 +98,7 @@ button {
 .information-header {
   display: flex;
   flex-direction: column;
-  padding: 50px 200px;
+  padding: 50px 150px;
   align-items: center;
   gap: 50px;
 }
@@ -140,7 +141,7 @@ button {
 .quote-header {
   display: flex;
   flex-direction: column;
-  padding: 50px 200px;
+  padding: 50px 150px;
   background-color: #e5e7eb;
   align-items: center;
 }
@@ -160,7 +161,7 @@ button {
 
 .cta-header {
   display: flex;
-  padding: 50px 200px;
+  padding: 50px 150px;
 }
 
 .cta-container {
